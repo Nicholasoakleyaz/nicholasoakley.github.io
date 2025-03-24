@@ -1,15 +1,29 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #f9f9f9;
   color: #333;
   text-align: center;
-  padding: 50px;
+  margin: 0;
+  padding: 40px;
 }
 
-h1 {
-  color: #222;
+main {
+  padding: 50px 20px;
 }
 
-p {
-  font-size: 18px;
+a {
+  color: #0077b5; /* LinkedIn blue */
+  font-weight: bold;
+  text-decoration: none;
 }
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #666;
+}
+
